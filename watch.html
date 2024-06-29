@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play - Air League</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="location.href='index.html'">
+            <img src="https://i.ibb.co/G564vzs/Untitled-280-x-100-px-1.png" alt="Air League Logo" style="height: 50px;">
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav>
+            <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="play.html">PLAY</a></li>
+                <li><a href="players.html">PLAYERS</a></li>
+                <li><a href="season-structure.html">SEASON STRUCTURE</a></li>
+                <li><a href="watch.html">WATCH</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section class="videos-grid">
+            <div class="video-thumbnail" data-video="https://www.youtube.com/embed/VIDEO_ID1">
+                <img src="https://i.ibb.co/MRp96q4/Untitled-design-2024-06-28-T180430-188.png" alt="Video 1">
+                <h3>SEASON PREVIEW</h3>
+            </div>
+            <div class="video-thumbnail" data-video="https://www.youtube.com/embed/VIDEO_ID2">
+                <img src="https://i.ibb.co/MRp96q4/Untitled-design-2024-06-28-T180430-188.png" alt="Video 2">
+                <h3>SEASON PREVIEW</h3>
+            </div>
+            <div class="video-thumbnail" data-video="https://www.youtube.com/embed/VIDEO_ID3">
+                <img src="https://i.ibb.co/MRp96q4/Untitled-design-2024-06-28-T180430-188.png" alt="Video 3">
+                <h3>SEASON PREVIEW/h3>
+            </div>
+            <div class="video-thumbnail" data-video="https://www.youtube.com/embed/VIDEO_ID4">
+                <img src="https://i.ibb.co/MRp96q4/Untitled-design-2024-06-28-T180430-188.png" alt="Video 4">
+                <h3>SEASON PREVIEW</h3>
+            </div>
+            <div class="video-thumbnail" data-video="https://www.youtube.com/embed/VIDEO_ID5">
+                <img src="https://i.ibb.co/MRp96q4/Untitled-design-2024-06-28-T180430-188.png" alt="Video 5">
+                <h3>SEASON PREVIEW</h3>
+            </div>
+            <div class="video-thumbnail" data-video="https://www.youtube.com/embed/VIDEO_ID6">
+                <img src="https://i.ibb.co/MRp96q4/Untitled-design-2024-06-28-T180430-188.png" alt="Video 6">
+                <h3>SEASON PREVIEW</h3>
+            </div>
+            <div class="video-thumbnail" data-video="https://www.youtube.com/embed/VIDEO_ID7">
+                <img src="https://i.ibb.co/MRp96q4/Untitled-design-2024-06-28-T180430-188.png" alt="Video 7">
+                <h3>SEASON PREVIEW</h3>
+            </div>
+            <div class="video-thumbnail" data-video="https://www.youtube.com/embed/VIDEO_ID8">
+                <img src="https://i.ibb.co/MRp96q4/Untitled-design-2024-06-28-T180430-188.png" alt="Video 8">
+                <h3>SEASON PREVIEW</h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="follow-us">
+            <a href="https://youtube.com">YouTube</a>
+            <a href="https://discord.com">Discord</a>
+            <a href="https://x.com">X</a>
+            <a href="https://instagram.com">Instagram</a>
+            <a href="https://tiktok.com">TikTok</a>
+        </div>
+        <div class="community">
+            <a href="jobs.html">Jobs</a>
+            <a href="partners.html">Partners</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="rights">
+            <p>© 2024 AIR LEAGUE®, INC. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <div id="video-popup" class="video-popup">
+        <div class="video-container">
+            <iframe id="youtube-video" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
